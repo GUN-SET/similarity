@@ -4,6 +4,7 @@
 /node_modules
 /.pnp
 /.idea
+/.vscode
 .pnp.js
 
 # testing
@@ -35,3 +36,5 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+.prettierrc
+
