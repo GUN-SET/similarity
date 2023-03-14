@@ -10,8 +10,8 @@ interface SignInButtonProps {}
 const SignInButton: FC<SignInButtonProps> = ({}) => {
 	const [isLoading, setIsLoading] = useState<boolean>(false)
 	const signInWithGoogle = async () => {
+		setIsLoading(true)
 		try {
-			setIsLoading(true)
 			await signIn('google')
 		} catch (e) {
 			toast({
